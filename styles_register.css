@@ -1,0 +1,79 @@
+/*Selector {
+	Property: Value;
+}*/
+*{ margin: 3px;}
+header{
+
+}
+nav {
+	text-align: right;
+	color: #1F2400
+}	
+li {
+list-style: none;
+display: inline-block;
+	font-size: 15px;
+	font-family: Silom
+}
+body 
+{
+background-image: url('cornerLean.jpg');
+background-size: cover;
+}
+h1 {
+background-color: silver; 
+color: #D3FB00; 
+font-size: 50px; 
+font-family: Verdana-BoldItalic
+;
+font-weight: bolder; 
+text-align: center;    
+border: solid 5px #445100; 
+padding: 10px;
+margin: 10px;
+opacity: 0.7;
+}
+h2  {
+color: black;
+/*border: solid 1px black*/
+font-size: 40px; 
+font-family: Verdana-BoldItalic
+; 
+text-align: left;    
+/*border: 1px solid powderblue;
+padding: 30px;
+margin: 50px;*/
+}
+
+
+p{
+font-size: 80%; 
+color:black;
+font-size: 25px;
+font-family: "trebuchet MS";
+/*border: 2px solid black*/
+}
+
+img{
+;
+}
+
+
+.webtext{}
+.active{}
+
+#div_hpriders {
+background-color: silver ; opacity: 0.7; border: 1px solid; color: black;padding: 10px; margin: 10px;
+
+}
+#div2 {
+background-color: orange ; opacity: 0.7; border: 1px solid; color: black;padding: 10px; margin: 10px;
+}
+#div3 {
+background-color: ; opacity: 0.0; border: 1px solid; color: black;
+}
+#div4 {
+background-color: ; opacity: 0.0; border: 1px solid; color: black;
+}
+
+

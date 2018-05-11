@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" href="styles_register.css">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="mSung_homepage.html">Home</a></li>
+			</ul>
+		</nav>
+	</header>
+</head>
+
+<body>
+
+	<h1><img src="logo.png" alt="motogp logo" style="height:50px;width:70px" align="left"> Register <img src="logo.png" alt="motogp logo" style="height:50px; width:70px" align="right"></h1>
+<br><h2>
+	<p>
+	<form method="GET"> 	
+		First Name: <br><input type="Text" required name="firstname"><br>
+		Last Name: <br><input type="Text" required name="lastname"><br>
+		Email: <br><input type="Email" required name="email"><br>
+		Password: <br><input type="Password" min="5" required name="password"><br>
+		Birthday: <br><input type="date" name="birthday"><br>
+		Gender: <br>
+		<input type="radio" required name="gender" value="male">Male<br>
+		<input type="radio" required name="gender" value="female">Female<br>
+		<input type="radio" required name="gender" value="other">I choose to not self-identify<br>
+		Do you ride daily? <br>
+		<input type="radio" name="daily" value="Yes">Yes<br>
+		<input type="radio" name="daily" value="No">No<br>
+		Do you ride track days? <br>
+		<input type="radio" name="track" value="Yes">Yes<br>
+		<input type="radio" name="track" value="No">No<br>
+		What do you ride? <br>
+		<select> 
+			<option value="Aprilia"  name="bikes" value="Aprilia" >Aprilia</option>
+			<option value="BMW"  name="bikes" value="BMW" >BMW</option>
+			<option value="Ducati"  name="bikes" value="Ducati" >Ducati</option>
+			<option value="Honda"  name="bikes" value="Honda" >Honda</option>
+			<option value="Suzuki" name="bikes" value="Suzuki" >Suzuki</option>
+			<option value="Kawasaki" name="bikes" value="Kawasaki" >Kawasaki</option>
+			<option value="Yamaha" name="bikes" value="Yamaha" >Yamaha</option>
+		</select>
+<br></h2>
+	</p>
+		<input type="submit" value="Sign Me Up to MotoGP Fan Club Mailing List!" name="">
+		<input type="reset" value="reset" name="">
+	</form>
+</body>
+</html>
